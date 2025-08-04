@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.perfil {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 350px;
+}
+
+.foto {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.descripcion {
+  font-size: 16px;
+  color: #555;
+  margin: 15px 0;
+}
+
+.info-contacto p {
+  margin: 5px 0;
+}
+
+.redes-sociales a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  color: #0077b5;
+  font-weight: bold;
+}
+
+.redes-sociales a:hover {
+  text-decoration: underline;
+}
